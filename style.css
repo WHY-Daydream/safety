@@ -1,0 +1,228 @@
+      * {
+          margin: 0;
+          padding: 0;
+      }
+
+      li {
+          list-style: none;
+      }
+
+      a {
+          text-decoration: none;
+      }
+
+      .w {
+          width: 1300px;
+          margin: 30px auto;
+      }
+
+      .header {
+          position: fixed;
+          width: 1300px;
+          height: 84px;
+          background-image: url("images/dhl2.png");
+          background-repeat: no-repeat;
+          top: 5px;
+          left: 50%;
+          margin-left: -650px;
+          box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.05);
+          z-index: 1;
+      }
+
+      .logo {
+          float: left;
+          margin-left: 10px;
+      }
+
+      .logo img {
+          height: 84px;
+          transition: all .4s;
+      }
+
+      .logo img:hover {
+          transform: scale(1.1);
+      }
+
+      .nav {
+          margin-left: 379px;
+      }
+
+      .dropdown {
+          width: 230px;
+          height: 70px;
+          text-align: center;
+          line-height: 90px;
+      }
+
+      .dropdown.dd {
+          background: rgba(255, 255, 255, 0.8);
+          /* 使用 rgba 设置透明背景颜色 */
+      }
+
+      .dropdown .dd li {
+          display: none;
+
+          padding-top: 8px;
+          height: 0px;
+          transition: all .2s;
+          background-image: url(images/drop.png);
+          opacity: 0
+      }
+
+      .dropdown:hover li {
+          display: block;
+          width: 230px;
+          height: 77px;
+          opacity: 1;
+          box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.3);
+          background: url(images/drop.png) no-repeat;
+
+          transform: translateY(-65px);
+          transform: translateX(0);
+      }
+
+
+
+      .nav ul li {
+          float: left;
+      }
+
+      .nav ul li a {
+          display: block;
+          height: 70px;
+          padding: 2px 20px 12px 20px;
+          line-height: 72px;
+          font-size: 31px;
+          color: #000;
+      }
+
+      .nav ul li a:hover {
+
+          color: #000;
+
+      }
+
+      .banner {
+          margin-top: 120px;
+          overflow: hidden;
+      }
+
+      .banner img {
+          height: 650px;
+          width: 1300px;
+          box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.3);
+          transition: all .4s;
+      }
+
+      .banner img:hover {
+          transform: scale(1.02);
+      }
+
+      .nlav {
+          overflow: hidden;
+          /* 溢出隐藏 */
+
+          position: relative;
+          width: 1180px;
+          margin: 15px auto;
+          padding: 0 60px 60px 60px;
+          box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1);
+          background-color: #fff
+      }
+
+      .new_title {
+          position: relative;
+          height: 84px;
+          padding: 75px 0 30px;
+      }
+
+      .nheader {
+          float: left;
+          padding-left: 30px;
+      }
+
+
+      .nheader.n-h-txt {
+          height: 84px;
+          padding-top: 6px;
+          padding-left: 20px;
+          font-weight: bold;
+          font-size: 22px;
+      }
+
+      .aq_desc {
+          position: relative;
+          width: 1075px;
+          height: 360px;
+          overflow: hidden;
+
+      }
+
+      .aq_desc:hover {
+          /* 启用垂直滚动条 */
+          overflow-y: auto;
+          overflow-x: hidden;
+      }
+
+      .aq_desc .aq_desc {
+          display: block;
+          position: relative;
+          width: 512px;
+          height: 336px;
+          font-family: "\5FAE\8F6F\96C5\9ED1";
+      }
+
+      .aq_img {
+          float: left;
+          width: 522px;
+          height: 330px;
+          border-radius: 5px;
+          border: 3px solid #dcdcdc;
+      }
+
+      .fr {
+          float: right;
+      }
+
+      .aq_desctxt_til {
+          font-size: 30px;
+          color: #333333;
+          margin-bottom: 20px;
+          display: block;
+          position: relative;
+          width: 512px;
+          height: 40px;
+
+      }
+
+      .aq_desctxt_wrod {
+          display: block;
+          font-size: 23px;
+          color: gray;
+          text-indent: 2em;
+          line-height: 30px;
+      }
+
+      .aq_box ul li {
+          float: left;
+          width: 370px;
+          height: 450px;
+
+      }
+
+      .aq_box ul li h4 {
+          margin: 20px 10px 10px 10px;
+
+          font-size: 25px;
+          color: #909090;
+          line-height: 40px;
+      }
+
+      .aq_box_img {
+          margin-right: 35px;
+      }
+
+
+      .nlav img:hover {
+          transform: scale(1.05);
+      }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="安全荣耀是一款通过三个赛道分别来介绍公共安全知识的网站">
+    <meta name="Keywords" content="安全，匹配，排位，飞行">
+    <title>安全荣耀-走进安全荣耀-匹配赛-排位赛-飞行赛</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="dtpw.js"></script>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body onload="time_fun(),populateQuestions()" style="padding:0px 80px 80px 80px;">
+    <center id="test-title">
+        <font size="6" color="white"> <b>开启您的上分之路 </b></font>
+        <h1><span id="content">您目前的段位:</span>
+            <br><span id="mytime">00:00:00</span>
+        </h1>
+    </center>
+    <hr>
+    <form name="quiz_form">
+        <div class="centered-container">
+            <div id="quiz_questions"></div>
+        </div>
+    </form>
+
+    <button onclick="javascript:main();">交卷</button>
+    <a href="about_qualifying.html#wfxq1"><button onclick="javascript:exit();">退出</button></a>
+    <h3>
+        您一共答对了<font color="red"><span id="right_number"></span></font> 题
+        <br>
+        恭喜您获得：<span class="score"><span id="score">0</span></span>积分
+        <br>
+        用时:<font color="red"><span id="time"></span></font>秒
+        <br>
+        正确的题目有:<span id="right_question" style="color:red"></span>
+        <br>
+        错误的题目有:<span id="error_question" style="color:red"></span>
+    </h3>
+</body>
+
+</html>

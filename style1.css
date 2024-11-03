@@ -1,0 +1,102 @@
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        #test-title {
+            position: relative;
+            background-image: url('images/dhl2.png');
+            background-size: cover;
+            background-position: center;
+            color: transparent;
+            width: 1300px;
+            height: 155px;
+            top: 5px;
+            left: 50%;
+            margin-left: -650px;
+            box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.05);
+            z-index: 1;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: white;
+        }
+
+
+        .quiz-header {
+            margin-bottom: 20px;
+        }
+
+        .quiz-header h1 {
+            font-size: 24px;
+        }
+
+        .timer {
+            font-size: 20px;
+        }
+
+
+        .questions p {
+            font-size: 18px;
+            text-align: center;
+            /* 将文本居中对齐 */
+            font-size: 18px;
+        }
+
+
+        .question-container label {
+            font-size: 20px;
+            font-weight: bold;
+            /* 这里设置字体大小，可以根据需要进行调整 */
+        }
+
+        .centered-container {
+            overflow: hidden;
+            /* 溢出隐藏 */
+            position: relative;
+            width: 1180px;
+            margin: 15px auto;
+            padding: 0 60px 60px 60px;
+
+        }
+
+        /* 问题容器的样式 */
+        .question-container {
+            position: relative;
+            height: 161px;
+            padding: 75px 0 30px;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 问题文本的样式 */
+        .question-text {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: green;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+        }
