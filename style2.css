@@ -4,6 +4,7 @@
             text-align: center;
         }
 
+        /* 固定头部 */
         #test-title {
             position: relative;
             background-image: url('images/dhl2.png');
@@ -11,12 +12,23 @@
             background-position: center;
             color: transparent;
             width: 1300px;
+            /* 固定宽度 */
             height: 140px;
+            margin: 0 auto;
+            /* 水平居中 */
             top: 5px;
-            left: 50%;
-            margin-left: -650px;
             box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.05);
             z-index: 1;
+        }
+
+        /* 固定尾部 */
+        h3 {
+            width: 1300px;
+            /* 固定宽度 */
+            margin: 20px auto;
+            /* 水平居中 */
+            font-size: 18px;
+            text-align: center;
         }
 
         .container {
@@ -87,7 +99,9 @@
             font-size: 20px;
         }
 
+        /* 按钮容器样式 */
         button {
+            display: inline-block;
             padding: 10px 20px;
             font-size: 18px;
             background-color: green;
@@ -96,6 +110,16 @@
             cursor: pointer;
             border-radius: 5px;
             margin-top: 20px;
+        }
+
+        /* 按钮外部容器居中 */
+        .button-container {
+            width: 1300px;
+            /* 固定宽度 */
+            margin: 20px auto;
+            /* 水平居中 */
+            text-align: center;
+            /* 居中对齐内部按钮 */
         }
 
         .result {
